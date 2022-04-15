@@ -1,0 +1,129 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.hero-image {
+
+    background-color: #232323;
+    color: white;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.hero-image h1 {
+    font-size: 48px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-wrapper {
+    width: 900px;
+    margin: 250px;
+}
+
+.highlight {
+    color: rgb(87, 111, 245);
+}
+
+.bio {
+    margin-top: 45px;
+}
+
+.projects {
+    min-height: 900px;
+}
+
+.projects-heading {
+    margin-top: 40px;
+    font-size: 36px;
+
+}
+
+.project {
+    max-width: 600px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 8px 8px rgb(0, 0, 0);
+
+}
+
+.project-heading {
+    font-size: 32px;
+    margin: 0;
+    color: rgb(87, 111, 245);
+}
+
+.github-link a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 12px 0px;
+}
+
+.github-link a {
+    text-decoration: none;
+}
+
+.github-project-link {
+    width: 30px;
+    margin-right: 8px
+}
+
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project-image {
+    max-width: 100%;
+}
+
+.tech-stack {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.tech-used {
+    border: 2px solid rgb(87, 111, 245);
+    color: rgb(87, 111, 245);
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 4px 10px;
+    margin-right: 4px;
+
+}
+
+
+.footer {
+    background-color: #232323;
+    color: white;
+    padding: 20px;
+}
+
+.footer-sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.land {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.land p {
+    margin-bottom: 45px;
+}
